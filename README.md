@@ -29,6 +29,9 @@ Notes on computer keyboard:
   awsedrf
   CDEFGAB
   
+  
+#Next
+
 To learn more about synthetizers: 
 https://en.wikipedia.org/wiki/Synthesizer
 
