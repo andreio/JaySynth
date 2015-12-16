@@ -1,6 +1,6 @@
 # JaySynth
 
-Simple JS audio synthetizer.
+Simple JS audio synthesizer.
 Uses AudioContext for audio stuff and AngularJS for UI.
 
 #Components
@@ -20,7 +20,7 @@ It is a very fast oscillator which acts as a modulator for the main oscillator. 
 
 #Output
 
-Controls the output of JaySynth. "Volume" determines the final output of the synthetizer.
+Controls the output of JaySynth. "Volume" determines the final output of the synthesizer.
 
   
 #Input
@@ -32,7 +32,7 @@ Notes on computer keyboard:
   
 #Next
 
-To learn more about synthetizers: 
+To learn more about synthesizers: 
 https://en.wikipedia.org/wiki/Synthesizer
 
 
