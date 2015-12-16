@@ -7,34 +7,21 @@ Uses AudioContext for audio stuff and AngularJS for UI.
 
 ##Oscillator
 
-The main sound generator. It creates sound waves based on the algorithm selected in "Type" .
-
-Settings:
-  Type - Sine, Square, Sawtooth, Triangle
+The main sound generator. "Type" determines the shape of the audio signal generated.
 
 ##Filter
 
-It is used to cut frequencies based on the algorithm selected in "Type" . "Frequency" determines at which frequency value the filter takes efect. "Q" determines the slope of the filter.
-
-Settings:
-  Type - LowPass, HighPass, BandPass, LowShelf, HighShelf, Peaking, Notch, Allpass
-  Frequency
-  Q param
+It is used to cut frequencies out of the audio signal. "Type" determines the shape of the filter. "Frequency" determines at which frequency value the filter takes efect. "Q" determines the slope of the filter.
 
 ##LFO
 
 It is a very fast oscillator which acts as a modulator for the main oscillator. "Frequency" determines the 'speed' of the LFO and "Gain" the strength of the effect.
 
-Settings:
-  Frequency
-  Gain
 
 #Output
 
 Controls the output of JaySynth. "Volume" determines the final output of the synthetizer.
 
-Settings 
-  Volume
   
 #Input
 The synth can by played with a midi keyboard or the computer keyboard if "Virtual keyboard ON" is checked.
