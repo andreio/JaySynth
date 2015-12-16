@@ -1,0 +1,28 @@
+nice-knob{
+display:inline-block;
+}
+
+knob-control{
+    display:block;
+    background: url(jog.png);
+    background-size: 40px 40px;
+    width:40px;
+    height:40px;
+}
+
+.knob-input{
+    width:45px;
+    background-color:lightgray;
+    padding:0;
+
+}
+
+.cursorless{
+    cursor:none!important;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none!important;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none!important;
+}

@@ -1,0 +1,63 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.4/angular.min.js"></script>
+    <link href="jaysynth.css" rel="stylesheet"/>
+    <link href="niceKnob.css" rel="stylesheet"/>
+</head>
+<body ng-app="JaySynth" virtual-keyboard>
+<synth  ng-controller="synth">
+    <h1>JaySynth</h1>
+    <oscillator class="stage">
+        <h3>Oscillator</h3>
+        <label>Waveform</label>
+        <select ng-model="type">
+            <option value="sine">Sine</option>
+            <option value="square">Square</option>
+            <option value="sawtooth">Sawtooth</option>
+            <option value="triangle">Triangle</option>
+        </select>
+    </oscillator>
+    <filter class="stage">
+        <h3>Filter</h3>
+        <label>Type</label>
+        <select ng-model="type">
+            <option value="lowpass">Lowpass</option>
+            <option value="highpass">Highpass</option>
+            <option value="bandpass">Bandpass</option>
+            <option value="lowshelf">Lowshelf</option>
+            <option value="highshelf">Highshelf</option>
+            <option value="peaking">Peaking</option>
+            <option value="notch">Notch</option>
+            <option value="allpass">Allpass</option>
+        </select>
+        <label>Frequency:</label>
+        <nice-knob ng-model="freq" step="10" min="1" max="20000"></nice-knob>
+        <label>Q:</label>
+       <nice-knob ng-model="Q" step="0.1" min="1" max="100"></nice-knob>
+    </filter>
+
+    <lfo class="stage">
+        <h3>LFO</h3>
+        <label>Frequency:</label>
+        <nice-knob ng-model="freq" step="0.1" min="0" max="10"></nice-knob>
+        <label>Gain:</label>
+        <nice-knob ng-model="gain" step="1" min="-20" max="20"></nice-knob>
+    </lfo>
+
+    <mixer class="stage">
+        <label>Volume</label><nice-knob ng-model="volume" step="0.1" min="0" max="1"></nice-knob>
+    </mixer>
+    <settings class="stage">
+        <label>Virtual keyboard ON:</label><input type="checkbox" ng-model="keyboardActive">
+    </settings>
+</synth>
+
+
+</body>
+<script src="niceknob.js"></script>
+<script src="jaysynth.js"></script>
+<script src="virtualKeyboard.js"></script>
+<script src="jaySynthWrapper.js"></script>
+
+</html>

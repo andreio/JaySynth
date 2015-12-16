@@ -1,0 +1,14 @@
+synth{
+    border:1px black solid;
+    padding:4px;
+    background-color: lightgray;
+    display:block;
+}
+
+.stage{
+    border:1px black solid;
+    background-color:lightblue;
+    padding:2px;
+    display:inline-block;
+
+}
