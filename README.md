@@ -29,10 +29,10 @@ Notes on computer keyboard:
 
       |w| |e| |r|
     |a| |s| |d| |f|
-
+    ------------------
       |D| |F| |A|
     |C| |E| |G| |B|
-
+    ------------------
        |Re|  |Fa|   |La|
     |Do|  |Mi|  |Sol|  |Si|
 
