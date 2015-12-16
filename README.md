@@ -27,14 +27,14 @@ Controls the output of JaySynth. "Volume" determines the final output of the syn
 The synth can by played using a MIDI keyboard or the computer keyboard if "Virtual keyboard ON" is checked.
 Notes on computer keyboard:
 
-   |w| |e| |r|
- |a| |s| |d| |f|
+      |w| |e| |r|
+    |a| |s| |d| |f|
 
-   |D| |F| |A|
- |C| |E| |G| |B|
+      |D| |F| |A|
+    |C| |E| |G| |B|
 
-    |Re|  |Fa|   |La|
- |Do|  |Mi|  |Sol|  |Si|
+       |Re|  |Fa|   |La|
+    |Do|  |Mi|  |Sol|  |Si|
 
  
 #Next
