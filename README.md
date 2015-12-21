@@ -3,6 +3,9 @@
 Simple JS audio synthesizer.
 Uses AudioContext for audio stuff and AngularJS for UI.
 
+See it in action here: http://codepen.io/andreio/full/XXKNVM/
+
+
 #Components
 
 ##Oscillator
